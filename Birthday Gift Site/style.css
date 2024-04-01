@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --body-color: #f7f5f3;
+    --first-color: #0c3f3f;
+    --second-color: #dda78c;
+    --third-color: #d5c4af;
+    --forth-color: #3a7f71;
+    --fifth-color: #eaeade;
+}
+
+body {
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
+    background-color: var(--body-color);
+    
+}
+
+/******  PROFILE  *******/
+
+.profile {
+    width: 70%;
+    margin: 50px auto 50px auto;
+    padding: 50px;
+    background-color: var(--second-color);
+    background: linear-gradient(#dd8d65, #f8d9cd);
+    border-radius: 15px;
+    box-shadow: 0 7px 6px var(--first-color);
+}
+
+.title {
+    padding: 10px;
+    font-size: 2.5rem;
+}
+
+.shadowed-text {
+    color: var(--first-color);
+    text-shadow: 0 0 3px var(--first-color);
+    
+}
+
+#cake {
+    height: 25px;
+}
+
+#image-profile {
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid var(--forth-color);
+}
+
+.img {
+    padding: 20px;
+}
+
+.age-cont {
+    width: 150px;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.age {
+    font-size: 1.4rem;
+}
+
+.dob-cont {
+    width: 100px;
+    margin: 10px auto;
+    padding: 5px;
+    font-style: italic;
+}
+
+.bg {
+    background-color: var(--forth-color);
+    border-radius: 5px;
+    color: var(--fifth-color);
+}
+
+
+
+/******  SECTION GENERAL CODE *****/
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.section-title {
+    padding: 10px;
+    color: var(--first-color);
+    text-shadow: 0 0 1px var(--first-color);
+}
+
+.section-sub {
+    color: var(--first-color);
+}
+
+.icon {
+    height: 20px;
+}
+
+.gif {
+    background-image: url(images/gift.gif);
+    height: 400px;
+    background-position: center;
+    border: 5px solid var(--forth-color);
+    border-radius: 10px;
+    width: 400px;
+    margin-top: 10px;
+}
+
+.smaller {
+    height: 250px;
+}
+
+
+/*********  GIFT  ***********/
+
+#celebration:hover {
+    cursor: pointer;
+    background-image: url("images/office-celebration.gif");
+}
+
+/*********  GOOD LOOKING  ***********/
+
+#good-looking:hover {
+    cursor: pointer;
+    background-image: url("images/good-looking.webp");
+}
+
+/*********  DESCRIPTION  ***********/
+
+#describe:hover {
+    cursor: pointer;
+    background-image: url("images/description.gif");
+}
+
+/*********  BAD-ASS  ***************/
+
+#badass:hover {
+    cursor: pointer;
+    background-image: url("images/bond.gif");
+    background-repeat: no-repeat ;
+}
+
+/*********  CHEERS  ***************/
+
+#cheers:hover {
+    cursor: pointer;
+    background-image: url("images/cheers.gif");
+    background-repeat: no-repeat ;
+}
+
+/*********  FOOTER  ***************/
+
+.footer {
+    margin: 40px auto 30px auto;
+    width: 400px;
+    color: var(--first-color);
+    line-height: 1.7rem;
+}
+
+.link {
+    color: var(--forth-color);
+    text-shadow: 1px 1px 1px black;
+    ;
+}
